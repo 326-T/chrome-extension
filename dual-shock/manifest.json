@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DualShock Keyboard Input",
+  "version": "1.0",
+  "description": "Use DualShock controller input for web forms",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
